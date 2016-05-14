@@ -12,7 +12,6 @@ Set<Integer> generated = new HashSet<>();
 while(generated.size() < 6) {
 int num = random.nextInt(45) + 1;
 // 생성된 목록에 포함되어 있지 않으면 추가
-->////dalkfjlkhdsf////
 if(!contains(generated, num)) {
 result[index++] = num;
 generated.add(num);
@@ -28,3 +27,4 @@ int[] result = new LottoGenerator().generate();
 System.out.println(Arrays.toString(result));
 }
 }
+
